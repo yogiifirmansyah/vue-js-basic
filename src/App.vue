@@ -31,8 +31,14 @@ export default {
   <todo-list />
   <hr />
 
+  <!-- Handling Events   -->
   <h1>Pick Color</h1>
   <pick-color />
+  <hr />
+
+  <!-- Two way bindings with v-model -->
+  <h1>Form Register</h1>
+  <form-register />
   <hr />
 </template>
 
