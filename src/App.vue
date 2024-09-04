@@ -11,8 +11,8 @@ export default {
     backendFrameworks: [],
   }),
   methods: {
-    handleChange(tags) {
-      this.jsFrameworks = [...tags];
+    handleChange(tag) {
+      this.jsFrameworks = [...tag];
     },
   },
 };
@@ -21,13 +21,19 @@ export default {
 <template>
   <h1>My Frameworks Tags</h1>
   <div>JS Frameworks: {{ jsFrameworks }}</div>
-  <tags-input :selected-tags="jsFrameworks" @change="handleChange" />
+  <tags-input :selected-tags="jsFrameworks" @change="handleChange($event)" />
   <div>Backend Frameworks: {{ backendFrameworks }}</div>
   <tags-input :selected-tags="backendFrameworks" @change="backendFrameworks = [...$event]" />
   <hr />
 
+  <!-- Directives and Attribute bindings -->
   <h1>Todo List</h1>
   <todo-list />
+  <hr />
+
+  <h1>Pick Color</h1>
+  <pick-color />
+  <hr />
 </template>
 
 <style scoped>
