@@ -42,13 +42,18 @@ export default {
   <hr />
 
   <!-- Working with methods -->
-  <h1>Discount</h1>
-  <discount />
+  <h1>Discount with Method</h1>
+  <discount-method />
   <hr />
 
   <!-- Style and Class Binding -->
   <h1>Button Change Style</h1>
   <button-change-style />
+  <hr />
+
+  <!-- Computed Properties -->
+  <h1>Discount with Computed</h1>
+  <discount-computed />
   <hr />
 </template>
 
