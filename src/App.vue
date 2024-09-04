@@ -40,6 +40,16 @@ export default {
   <h1>Form Register</h1>
   <form-register />
   <hr />
+
+  <!-- Working with methods -->
+  <h1>Discount</h1>
+  <discount />
+  <hr />
+
+  <!-- Style and Class Binding -->
+  <h1>Button Change Style</h1>
+  <button-change-style />
+  <hr />
 </template>
 
 <style scoped>
