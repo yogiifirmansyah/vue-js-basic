@@ -55,6 +55,11 @@ export default {
   <h1>Discount with Computed</h1>
   <discount-computed />
   <hr />
+
+  <!-- Watcher -->
+  <h1>Validation</h1>
+  <validation />
+  <hr />
 </template>
 
 <style scoped>

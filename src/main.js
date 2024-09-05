@@ -8,6 +8,7 @@ import FormRegister from "./components/FormRegister.vue";
 import DiscountMethod from "./components/DiscountMethod.vue";
 import ButtonChangeStyle from "./components/ButtonChangeStyle.vue";
 import DiscountComputed from "./components/DiscountComputed.vue";
+import Validation from "./components/Validation.vue";
 
 // Register Components Global
 const app = createApp(App);
@@ -17,4 +18,5 @@ app.component("pick-color", PickColor);
 app.component("form-register", FormRegister);
 app.component("discount-method", DiscountMethod);
 app.component("button-change-style", ButtonChangeStyle);
-app.component("discount-computed", DiscountComputed).mount("#app");
+app.component("discount-computed", DiscountComputed);
+app.component("validation", Validation).mount("#app");
